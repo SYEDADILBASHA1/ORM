@@ -39,12 +39,11 @@ class employee(models.Model):
     dept=models.CharField(max_length=20)
     salary=models.FloatField()
 
-
 ```
 
 ## OUTPUT
 
-![Screenshot (164)](https://github.com/SYEDADILBASHA1/ORM/assets/134796157/1380037b-7315-473c-9ee1-80b9e443d2c0)
+![Screenshot (164)](https://github.com/SYEDADILBASHA1/ORM/assets/134796157/9e4a7d26-c15b-4af5-99b8-6d31c3a454ac)
 
 
 ## RESULT
