@@ -23,12 +23,28 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
+```
+admin.py
 
-Include your code here
+from django.contrib import admin
+from .models import employee
+admin.site.register(employee)
+
+models.py
+
+from django.db import models
+class employee(models.Model):
+    empid=models.IntegerField()
+    empname=models.CharField(max_length=20)
+    dept=models.CharField(max_length=20)
+    salary=models.FloatField()
+
+
+```
 
 ## OUTPUT
 
-Include the screenshot of your admin page.
+![Screenshot (164)](https://github.com/SYEDADILBASHA1/ORM/assets/134796157/1380037b-7315-473c-9ee1-80b9e443d2c0)
 
 
 ## RESULT
